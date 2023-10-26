@@ -1,44 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Gilang - HomePage</title>
-</head>
-<body>
+  </head>
+  <body>
     <!--Navbar section start-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">My Portofolio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse text-right" id="navbarText">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Project</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="/">My Portofolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Project</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item contact-me">
+              <a class="nav-link" href="#">Contact Me</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-     <!--Navbar section End-->
+      </div>
+    </nav>
+    <!--Navbar section End-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <!-- Content Section Start -->
+    <div class="container text-right">
+      <div class="row align-items-center">
+        <div class="col">
+          <h2>Hello Guys</h2>
+          <div class="name-container">
+            <h2 class="iam-text">I am</h2>
+            <h1>Gilang Sulaeman</h1>
+          </div>
+          <h6>Graphic Design Entusiast</h6>
+          <div
+            class="Rectangle"
+            style="
+              width: 64px;
+              height: 2px;
+              background: #d9d9d9;
+              border-radius: 1px;
+            "
+          ></div>
+          <p>
+            I'm highly enthusiastic about graphic design, as I consider it vital
+            for effective product branding. I focus on composition and visual
+            details to create a professional look. Right now, I'm honing my
+            UI/UX design skills for dynamic apps and web development.
+          </p>
+        </div>
+        <div class="col">
+          <img src="/img/Foto.png" alt="foto">
+        </div>
+      </div>
+    </div>
+    <!-- Content Section End -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

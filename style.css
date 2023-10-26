@@ -1,0 +1,100 @@
+body {
+  font-family: poppins;
+  background-color: #0d0c0c;
+}
+
+.container {
+  padding: 25px;
+}
+
+.navbar {
+  background-color: #0f0f0f;
+  padding: 10px 0; /* Menambahkan ruang di atas dan bawah navbar */
+}
+
+.navbar-brand {
+  color: #fff; /* Warna teks untuk merek/link utama */
+  font-size: 24px; /* Ukuran teks */
+  font-weight: bold; /* Ketebalan teks */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* Warna ikon toggle */
+}
+
+/* Gaya untuk daftar menu */
+.navbar-nav .nav-item {
+  margin: 0 10px; /* Jarak antara item menu */
+}
+
+.nav-link {
+  color: #fff; /* Warna teks untuk item menu */
+  font-size: 18px; /* Ukuran teks item menu */
+  text-decoration: none; /* Menghilangkan garis bawah default */
+}
+
+/* Gaya tombol "Contact Me" */
+.navbar-nav .nav-item.contact-me {
+  margin: 0 10px;
+}
+
+.contact-me .nav-link {
+  background-color: transparent;
+  border: 2px solid #fff; /* Warna stroke putih */
+  border-radius: 5px; /* Radius border 5px */
+  color: #fff; /* Warna teks putih */
+  padding: 5px 15px;
+  transition: all 0.3s; /* Animasi perubahan saat hover */
+}
+
+.contact-me .nav-link:hover {
+  background-color: #436af2; /* Warna latar belakang saat hover */
+  border-color: #436af2; /* Warna stroke saat hover */
+  color: #fff; /* Warna teks saat hover */
+}
+
+.navbar-nav .nav-item.active .nav-link {
+  color: #fff; /* Warna teks saat tombol diklik */
+}
+
+.navbar-nav .nav-item.active .nav-link:hover {
+  color: #436af2; /* Warna teks saat tombol diklik dengan efek hover */
+}
+
+.col {
+  color: #ffffff;
+}
+
+.col h2,
+.col h1,
+.col h6 {
+  margin-bottom: 10px; 
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+}
+
+.iam-text {
+  color: #fff; /* Warna "I am" putih */
+  margin-right: 5px; /* Margin kanan untuk pemisah */
+}
+
+.col p {
+  margin-top: 15px;
+  text-align: justify;
+  color: #999999;
+}
+
+h1 {
+  color: #7490f6; /* Warna "Gilang Sulaeman" #7490F6 */
+}
+
+h6 {
+  color: #787878;
+}
+
+.col img {
+  margin: 15px 0px 0px 150px;
+}
